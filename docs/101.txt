@@ -1,0 +1,37 @@
+Typescript is a Superset of javascript.
+It's a compiler of typescript to javascript. You get all the advantages of typescript and it generates javascript code to run on Node.
+
+It rounds about having types of data, possibly finding errors early on development comparing with javascript.
+
+example javascript:
+------
+function add(num1, num2) {
+    return num1 + num2;
+}
+
+# Instead of concatenating two numbers, it will concatenate two strings
+console.log(add('2', '3'))
+------
+
+example typescript:
+------
+function 
+
+
+
+------
+
+## Default Typescript Types
+
+Typescript by default provides some types to use:
+
+- `number`: All numbers, integer, negative numbers and floating numbers
+- `string`: All text values
+- `boolean`: Only `true` and `false`
+- `object`: Any javascript object and more specific typescript object types
+- `Array`: Any javascript array and the array can be flexible or script typed
+- `Tuple`: Only typescript has it. It's an array with fixed length
+- `Enum`: Only typescript has it. enumerated global constant identifiers
+- `Any`: Any kind of value
+- `Union`: You can have a var with one or more types (number | string). you have to test the data type before process it
+- `Literal Types`: You can specify the value of a given data

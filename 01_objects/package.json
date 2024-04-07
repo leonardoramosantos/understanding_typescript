@@ -1,0 +1,16 @@
+{
+  "name": "00_add_numbers",
+  "version": "1.0.0",
+  "description": "Understanding Typescript 01",
+  "main": "./out/objects.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build-run": "tsc && node ./out/objects.js"
+  },
+  "author": "Leonardo Ramos dos Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.5"
+  }
+}
