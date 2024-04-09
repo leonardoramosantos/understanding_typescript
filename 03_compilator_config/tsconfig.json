@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "outDir": "./out"
+    },
+    // There's no need of specifying include, as it automatically searches for ts files recursively
+    // If don't create exclude element, tsc automatically excludes node_modules
+    "exclude": [
+        "node_modules",
+        "out",
+        "package*"
+    ]
+}

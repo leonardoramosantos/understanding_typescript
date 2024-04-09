@@ -57,9 +57,7 @@ console.log(combinedNames);
 type numOrString = "numeric" | "string";
 
 function combineLiteral(val1: number | string, val2: number | string, combType: numOrString) {
-    if (combType === "numeric")
-        return +val1 + +val2;
-    else
+    
         return val1.toString() + val2.toString();
 }
 

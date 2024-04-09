@@ -1,0 +1,17 @@
+{
+  "name": "02_functions",
+  "version": "1.0.0",
+  "description": "Understanding Typescript 02",
+  "main": "./out/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build-run": "tsc && node ./out/main.js",
+    "watch": "tsc -w"
+  },
+  "author": "Leonardo Ramos dos Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.5"
+  }
+}
